@@ -1,13 +1,18 @@
 #include <stdio.h>
-#include <windows.h>
 
-int main(void)
-{
-  char c;
-  int i;
-  printf("input a number :");
-  scanf("%c", &c);
-  i = c - '0';
-  printf("The input number is %i\n", i);
-  return 0;
-  }
+
+int main(void){
+
+    
+
+    char c;
+    //int c1;
+
+    printf("input a charactor: ");
+    scanf("%c", &c);
+
+    //c1=c+1;
+    printf("the next charactor is: %c\n", c+1);
+
+    return 0;
+}
